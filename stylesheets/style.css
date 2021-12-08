@@ -49,7 +49,8 @@ li {
 .background-about,
 .background-portfolio {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, #000000 85.12%), 
-    url(https://www.linkpicture.com/q/wallpapersden.com_woman-in-cyberpunk-city_1920x1080-1.jpg);
+    url(../images/background.jpg);
+    background-position: center;
   }
 
 body {
@@ -57,9 +58,11 @@ body {
     180deg,
     rgba(0, 0, 0, 0) 0%,
     #000000 87.44%,
-    #000000 100%);
+    #000000 100%),
+    url(../images/background.jpg);
     overflow: auto;
     height: 100%;
+    background-position: center;
   }
 
 button {
